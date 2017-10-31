@@ -10,6 +10,13 @@ namespace crueybm_Test
     {
         static void Main(string[] args)
         {
+            int testInt;
+            String testString;
+
+            testInt = 0;
+            testString = "This is a test for Github";
+
+            Console.WriteLine(testString + " #" + testInt);
         }
     }
 }
